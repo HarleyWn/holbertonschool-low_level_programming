@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-/*
+/**
  * Main
  * prints the code
  *
