@@ -1,16 +1,16 @@
-#include <main.h>
+#include "main.h"
 /**
- * main - prints
+ * main - entry point
  *
  * Return: always 0
  */
 int main(void)
 {
-char *sh = "_putchar";
+char sh = "_putchar";
 
-while (*sh)
+while (sh)
 {
-_putchar(*sh);
+_putchar(sh)
 sh++;
 }
 _putchar('\n');
