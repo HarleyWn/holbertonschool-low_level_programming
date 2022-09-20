@@ -4,7 +4,7 @@
  *
  * Return: always 0
  */
-void print_alphabet(void)
+void alphabet(void)
 {
 int n;
 
