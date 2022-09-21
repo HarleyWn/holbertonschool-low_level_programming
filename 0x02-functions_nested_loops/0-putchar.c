@@ -8,10 +8,10 @@ int main(void)
 {
 char h[] = "_putchar";
 
-while (h)
+while (h < i)
 {
 _putchar(h);
-sh++;
+h++;
 }
 _putchar('\n');
 
