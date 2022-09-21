@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-char h[] = "_putchar";
+  char *sh = "_putchar";
 
-while (h)
-{
-_putchar(h);
-h++;
-}
-_putchar('\n');
+  while (*sh)
+    {
+      _putchar(*sh);
+      sh++;
+    }
+  _putchar('\n');
 
-return (0);
+  return (0);
 }
