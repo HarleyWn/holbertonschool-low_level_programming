@@ -1,4 +1,4 @@
-#indef HEADER_MAIN
+#ifdef HEADER_MAIN
 #define HEADER_MAIN
 
 int _isupper(int c);
